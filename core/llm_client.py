@@ -37,3 +37,4 @@ class LLMClient:
         except Exception as e:
             logger.error(f"❌ LLM call failed (provider={self.provider}, model={self.model}): {e}")
             raise
+
