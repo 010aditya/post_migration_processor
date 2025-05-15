@@ -1,0 +1,10 @@
+# Core dependencies
+openai[azure]>=1.0.0     # ✅ Includes Azure OpenAI client
+tenacity>=8.2.0
+javalang>=0.13.0
+pyyaml>=6.0.0
+tqdm>=4.66.0
+python-dotenv>=1.0.1
+
+# Optional developer experience
+rich>=13.7.1

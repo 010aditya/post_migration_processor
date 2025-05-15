@@ -1,0 +1,13 @@
+from .precondition_validator import run as precondition_validator
+from .context_collector import run as context_collector
+from .enterprise_indexer import run as enterprise_indexer
+from .reference_promoter import run as reference_promoter
+from .dependency_mapper import run as dependency_mapper
+from .chunk_planner import run as chunk_planner
+from .fix_and_compile import run as fix_and_compile
+from .gradle_setup import run as gradle_setup
+from .build_fixer import run as build_fixer
+from .swagger_generator import run as swagger_generator
+from .test_generator import run as test_generator
+from .datasource_extractor import run as datasource_extractor
+from .migration_reporter import run as migration_reporter
